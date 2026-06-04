@@ -11,7 +11,7 @@
 > 基于人民卫生出版社《内科学》第10版的临床技能手册 — 423 项内科核心临床技能
 <br>
 <br>
-<img src="https://github.com/xllgreen/Surgery-PMPH-10edition-/blob/main/assets/Surgery.png" width="260px">
+<img src="https://github.com/xllgreen/Surgery-PMPH-10edition-/blob/main/assets/Internal-Medicine.jpg" width="260px">
 <br>
 
 何必苦苦读一本书<br>
@@ -113,7 +113,7 @@ bash scripts/list-skills.sh count
 
 ## 关于作者
 
-**内科学（第10版）技能集** — 基于人民卫生出版社《内科学》第10版整理
+**小绿绿 xllgreen(https://xllgreen.github.io)** — 九江学院临床医学院学生·科技极客
 
 ## 许可证
 
@@ -121,10 +121,10 @@ bash scripts/list-skills.sh count
 
 ## Star History
 
-<a href="https://www.star-history.com/#">
+<a href="https://www.star-history.com/?repos=xllgreen%2FInternal-Medicine-PMPH-10edition&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=xllgreen/Internal-Medicine-PMPH-10edition&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=xllgreen/Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xllgreen/Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
  </picture>
 </a>
