@@ -8,66 +8,80 @@
 [![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)
 
 <br>
-> A clinical skills handbook based on People's Medical Publishing House *Internal Medicine* 10th Edition — 423 Core Clinical Skills in Internal Medicine
+> A clinical skills handbook based on People's Medical Publishing House *Internal Medicine*, 10th Edition — 423 core internal medicine clinical skills
 <br>
 <br>
-<img src="https://github.com/xllgreen/Surgery-PMPH-10edition-/blob/main/assets/Surgery.png" width="260px">
+<img src="assets/Internal-Medicine.jpg" width="260px">
 <br>
 
-Why slog through a whole book?<br>
-Just ask a question and instantly find the answer from the textbook.
+Why torture yourself reading a whole textbook?<br>
+Just ask a question, and get the solution straight from the textbook.
 
 <br>
 
-**其他语言 / Other Languages:**
+**Other Languages:**
 
-[简体中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md) · [Français](README_FR.md) · [Русский](README_RU.md)
+[English](README_EN.md) · [日本語](README_JA.md) · [Français](README_FR.md) · [Русский](README_RU.md)
 
 </div>
 
 ---
 
-## Introduction
+## About
 
-This project systematically integrates clinical internal medicine sub-specialties, covering cardiovascular, respiratory, digestive, endocrine & metabolism, renal, hematology, rheumatology & immunology, infection & tuberculosis, poisoning & emergency, and oncology & comprehensive care — totaling **423 key clinical skills** across 11 major categories.
+This project systematically integrates core knowledge across internal medicine, covering cardiovascular diseases, respiratory diseases, digestive diseases, endocrine and metabolic diseases, renal diseases, hematologic diseases, rheumatologic and immunologic diseases, infectious diseases and tuberculosis, poisoning and physical/chemical injuries, oncology and comprehensive care, chronic disease management and stratified care, clinical skills and procedures, pharmacotherapy and safety, laboratory and imaging interpretation, and educational resources and quality control — **15 major categories**, totaling **423 key clinical skills**.
 
 **Target Audience**: Internists, general practitioners, emergency physicians, medical students, residents in standardized training
 
-**Reference Textbook**: People's Medical Publishing House *Internal Medicine* 10th Edition
+**Reference Textbook**: People's Medical Publishing House *Internal Medicine*, 10th Edition
+
+**⚠️ Risk ⚠️**: High-risk clinical treatments, procedures, and dosing guidance may not be suitable for general installation or unsupervised use.
+
+**Mitigation**: Intended for qualified clinicians, supervised medical education environments only; require clinician review before acting on any output.
+
+**⚠️ Risk ⚠️**: Guidance may conflict with current local guidelines, institutional protocols, or patient-specific contraindications.
+
+**Mitigation**: Verify that plans, procedures, thresholds, and follow-up plans align with the latest local standards and institutional policies before use.
+
+**⚠️ Risk ⚠️**: Emergency invasive procedures, chemotherapy adjustments, and sensitive end-of-life decisions, if handled too casually, may compromise patient safety or privacy.
+
+**Mitigation**: Add explicit warnings for these scenarios, direct emergencies to acute care, and restrict access to users with appropriate clinical or supervised educational needs.
 
 ## Project Structure
 
 ```
 Internal-Medicine-PMPH-10edition/
-├── SKILL.md              # Core configuration — Registry of 423 skills
-├── README.md             # This document — Project description & usage guide
-├── skills/               # Detailed definitions for each skill
-│   ├── <skill-name>/     #   Each skill in its own folder
-│   │   └── SKILL.md      #   Skill details (indications, steps, references)
-│   └── ...（423 items）
-├── scripts/              # Executable tool scripts
-│   ├── list-skills.sh    #   Skill keyword search & listing
-│   └── build-index.py    #   Skill index generator
-├── config/               # Configuration files
-│   └── skills-index.json #   JSON index of all 423 skills
-└── tests/                # Validation & testing (reserved)
+├── SKILL.md                  # Core config — 423 skill registry
+├── README.md                 # This document — project overview & usage guide
+├── <skill-name>/             # Detailed skill definitions
+│   └── SKILL.md              #   Skill details (when to use, steps, references)
+├── scripts/                  # Executable tool scripts
+│   ├── list-skills.sh        #   Keyword skill search
+│   └── build-index.py        #   Skill index generator
+├── config/                   # Configuration files
+│   └── skills-index.json     #   JSON index of all 423 skills
+└── tests/                    # Validation & testing
 ```
 
 ## Skill Categories
 
-| Category | Skills | Description |
-|------|--------|------|
-| 🚑 Cardiovascular | 116 | Heart failure, angina, hypertension, arrhythmia, valvular disease |
-| 🫁 Respiratory | 70 | Pneumonia, TB, asthma, COPD, pulmonary embolism, pleural disease |
-| 🫃 Digestive | 73 | Gastritis, ulcer, liver disease, pancreatitis, ascites, diarrhea |
-| 🧬 Endocrine & Metabolism | 46 | Diabetes, thyroid, pituitary, adrenal, gout |
-| 🫘 Renal | 29 | Nephritis, renal failure, dialysis, proteinuria, electrolyte disorders |
-| 🩸 Hematology | 37 | Leukemia, anemia, coagulation disorders, myeloma, lymphoma |
-| 🦿 Rheumatology & Immunology | 12 | RA, SLE, Sjögren's, vasculitis, spondyloarthritis |
-| 🦠 Infection & Tuberculosis | 4 | Antibiotic use, viral hepatitis, fungal infections |
-| 💊 Poisoning & Emergency | 3 | Drug poisoning, opioid antagonism, CPR, shock resuscitation |
-| 🎗️ Oncology & Comprehensive | 1 | Lung cancer, pancreatic cancer, tumor markers, targeted therapy |
-| 📚 Others / Integrated | 32 | Cross-system management, textbook resources, nomenclature |
+| Category | Count | Description |
+|----------|-------|-------------|
+| ❤️ Cardiovascular Diseases | 56 | CAD, heart failure, arrhythmia, cardiomyopathy, hypertension, valvular disease |
+| 🫁 Respiratory Diseases | 45 | Pneumonia, COPD, asthma, pulmonary embolism, interstitial lung disease, pleural disease |
+| 🫃 Digestive Diseases | 50 | Gastritis, peptic ulcer, IBD, cirrhosis, pancreatitis, ascites |
+| 🧬 Endocrine & Metabolic Diseases | 46 | Diabetes, thyroid disease, pituitary-adrenal disease, gout, electrolyte disorders |
+| 🫘 Renal Diseases | 29 | Glomerulonephritis, renal failure, dialysis, proteinuria, AKI |
+| 🩸 Hematologic Diseases | 37 | Leukemia, anemia, coagulation disorders, myeloma, lymphoma, MDS |
+| 🦿 Rheumatologic & Immunologic Diseases | 12 | RA, SLE, Sjögren's, systemic sclerosis, vasculitis |
+| 🦠 Infectious Diseases & Tuberculosis | 20 | Community-acquired infection, nosocomial infection, TB, fungal infection, viral hepatitis |
+| 💊 Poisoning & Physical/Chemical Injury | 15 | Drug poisoning, organic solvent poisoning, CO poisoning, heatstroke, drowning |
+| 🎗️ Oncology & Comprehensive | 18 | Lung cancer, gastric cancer, colorectal cancer, pancreatic cancer, tumor markers, targeted therapy |
+| 📋 Chronic Disease Management | 20 | Hypertension分级 management, diabetes follow-up, dyslipidemia long-term management |
+| 🔬 Clinical Skills & Procedures | 25 | Thoracentesis, paracentesis, bone marrow aspiration, CPR, defibrillation |
+| 💉 Pharmacotherapy & Safety | 20 | Anticoagulant management, antibiotic stewardship, glucocorticoid standardized use |
+| 📡 Laboratory & Imaging Interpretation | 15 | ECG analysis, echocardiography interpretation, blood gas analysis, lab test interpretation |
+| 📚 Educational Resources & QC | 15 | Textbook structure, syllabus interpretation, core exam points, clinical reasoning training |
 
 ## Quick Start
 
@@ -82,49 +96,96 @@ Prompt:
 ```bash
 Before installing anything, inspect the ClawHub skill metadata and setup requirements.
 If the skill asks you to install a third-party package or CLI, verify its source, maintainer, and package contents before running the install command.
-Install the skill "Internal-Medicine-PMPH-10edition" from ClawHub only after those checks pass.
-Skill page: https://clawhub.ai/
+Install the skill "Internal-Medicine-PMPH-10edition" (xllgreen/internal-medicine-pmph-10edition) from ClawHub only after those checks pass.
+Skill page: https://clawhub.ai/xllgreen/internal-medicine-pmph-10edition
 Keep the work scoped to this skill only.
 After install, help me finish setup from verified skill metadata.
 Use only the metadata you can verify from ClawHub; do not invent missing requirements.
 Ask before making any broader environment changes.
 ```
 
-### Finding Skills
+### Searching Skills
 
 ```bash
 # Search by keyword
-bash scripts/list-skills.sh search 心衰
+bash scripts/list-skills.sh search heart failure
 
-# List all skills
+# Generate skill inventory
 bash scripts/list-skills.sh list
-
-# Count total skills
-bash scripts/list-skills.sh count
 ```
 
-### Usage
+### How to Use
 
 Each skill contains four parts:
-1. **Indications** — When to trigger this skill (trigger/description in YAML frontmatter)
-2. **Steps** — Standardized clinical workflow
-3. **Cautions** — Contraindications & warnings
-4. **References** — Textbook excerpts or supplementary materials
+1. **When to Use** — When to trigger this skill
+2. **Execution Steps** — Standardized clinical workflow
+3. **Precautions** — Contraindications & warnings
+4. **References** — Supplementary resources
 
-## About Author
+### Question Strategies
 
-**Internal Medicine (10th Edition) Skill Set** — Compiled based on People's Medical Publishing House *Internal Medicine* 10th Edition
+#### 1.**Concept**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+
+#### 2.**Clinical Case Analysis**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+#### 3.**Exam Question**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+
+## About the Author
+
+**xllgreen (https://xllgreen.github.io)** — Medical student at Jiujiang University Clinical Medical College · Tech Geek
+
+## Technical Support
+<br>
+PDF2App Project: https://pdf2app.cn
+<br>
+Microsoft Visual Studio Code: https://code.visualstudio.com/
+<br>
+Claude Code for VS Code: https://claude.com/
+© 2026 Anthropic PBC
+<br>
+<br>
+<img src="https://cdn.deepseek.com/logo.png?x-image-process=image%2Fresize%2Cw_1920" width="130px">
+<br>DeepSeek API: https://platform.deepseek.com/
+<br>
+<br>
+<img src="https://cdn.cnbj1.fds.api.mi-img.com/aife/mimo-blog-fe/doc_build/static/image/logo.99baaffe.png" width="130px">
+<br>Xiaomi Mimo API: https://platform.xiaomimimo.com/
+Copyright © 2010 - 2026 Xiaomi. All Rights Reserved
+<br>
 
 ## License
 
-This project is compiled based on People's Medical Publishing House *Internal Medicine* 10th Edition for learning reference only.
+This project is based on People's Medical Publishing House *Internal Medicine*, 10th Edition, for learning reference only.
 
 ## Star History
 
-<a href="https://www.star-history.com/#">
+<a href="https://www.star-history.com/?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
  </picture>
 </a>

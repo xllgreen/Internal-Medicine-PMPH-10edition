@@ -8,68 +8,82 @@
 [![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)
 
 <br>
-> Manuel de compétences cliniques basé sur la 10e édition de *Médecine Interne* des Éditions de la Santé Populaire — 423 Compétences Cliniques Fondamentales en Médecine Interne
+> Manuel de compétences cliniques basé sur la *Médecine Interne* (10e édition) de la People's Medical Publishing House — 423 compétences cliniques fondamentales en médecine interne
 <br>
 <br>
-<img src="https://github.com/xllgreen/Surgery-PMPH-10edition-/blob/main/assets/Surgery.png" width="260px">
+<img src="assets/Internal-Medicine.jpg" width="260px">
 <br>
 
-Pourquoi peiner à lire un livre entier ?<br>
-Il suffit de poser une question pour trouver automatiquement la solution dans le manuel.
+Pourquoi s'acharner à lire tout un manuel ?<br>
+Posez une question, et obtenez la solution directement du manuel.
 
 <br>
 
 **Autres langues / Other Languages:**
 
-[简体中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md) · [Français](README_FR.md) · [Русский](README_RU.md)
+[English](README_EN.md) · [日本語](README_JA.md) · [Français](README_FR.md) · [Русский](README_RU.md)
 
 </div>
 
 ---
 
-## Présentation du Projet
+## À propos
 
-Ce projet intègre systématiquement les sous-spécialités de la médecine interne clinique, couvrant les domaines cardiovasculaire, respiratoire, digestif, endocrinologie & métabolisme, rénal, hématologie, rhumatologie & immunologie, infectiologie & tuberculose, intoxications & urgences, et oncologie & soins complets — un total de **423 compétences cliniques essentielles** réparties en 11 grandes catégories.
+Ce projet intègre systématiquement les connaissances fondamentales en médecine interne, couvrant les maladies cardiovasculaires, les maladies respiratoires, les maladies digestives, les maladies endocriniennes et métaboliques, les maladies rénales, les maladies hématologiques, les maladies rhumatologiques et immunologiques, les maladies infectieuses et la tuberculose, les intoxications et lésions physico-chimiques, l'oncologie et les soins complets, la gestion des maladies chroniques et les soins hiérarchisés, les compétences et procédures cliniques, la pharmacothérapie et la sécurité, l'interprétation des examens de laboratoire et d'imagerie, ainsi que les ressources pédagogiques et le contrôle qualité — **15 catégories principales**, totalisant **423 compétences cliniques essentielles**.
 
-**Public cible** : Internistes, médecins généralistes, urgentistes, étudiants en médecine, résidents en formation spécialisée
+**Public cible** : Internistes, médecins généralistes, urgentistes, étudiants en médecine, résidents en formation standardisée
 
-**Manuel de référence** : 10e édition de *Médecine Interne* des Éditions de la Santé Populaire
+**Manuel de référence** : People's Medical Publishing House *Médecine Interne*, 10e édition
 
-## Structure du Projet
+**⚠️ Risque ⚠️** : Les traitements cliniques à haut risque, les procédures et les conseils posologiques peuvent ne pas convenir à une installation générale ou à une utilisation non supervisée.
+
+**Atténuation** : Destiné uniquement aux cliniciens qualifiés et aux environnements de formation médicale supervisée ; exiger un examen par un clinicien avant d'appliquer toute recommandation.
+
+**⚠️ Risque ⚠️** : Les conseils peuvent entrer en conflit avec les recommandations locales actuelles, les protocoles institutionnels ou les contre-indications spécifiques aux patients.
+
+**Atténuation** : Vérifier que les plans, procédures, seuils et suivis sont conformes aux dernières normes locales et politiques institutionnelles avant utilisation.
+
+**⚠️ Risque ⚠️** : Les procédures invasives d'urgence, les ajustements de chimiothérapie et les décisions sensibles de fin de vie, si traités à la légère, peuvent compromettre la sécurité ou la vie privée des patients.
+
+**Atténuation** : Ajouter des avertissements explicites pour ces scénarios, orienter les urgences vers les soins aigus et limiter l'accès aux utilisateurs ayant des besoins cliniques ou éducatifs supervisés appropriés.
+
+## Structure du projet
 
 ```
 Internal-Medicine-PMPH-10edition/
-├── SKILL.md              # Configuration principale — Registre des 423 compétences
-├── README.md             # Ce document — Description du projet & guide d'utilisation
-├── skills/               # Définitions détaillées de chaque compétence
-│   ├── <skill-name>/     #   Chaque compétence dans son propre dossier
-│   │   └── SKILL.md      #   Détails de la compétence (indications, étapes, références)
-│   └── ...（423 éléments）
-├── scripts/              # Scripts d'outils exécutables
-│   ├── list-skills.sh    #   Recherche par mot-clé et liste des compétences
-│   └── build-index.py    #   Générateur d'index des compétences
-├── config/               # Fichiers de configuration
-│   └── skills-index.json #   Index JSON des 423 compétences
-└── tests/                # Validation et tests (réservé)
+├── SKILL.md                  # Configuration centrale — registre des 423 compétences
+├── README.md                 # Ce document — présentation et guide d'utilisation
+├── <skill-name>/             # Définitions détaillées de chaque compétence
+│   └── SKILL.md              #   Détails (quand utiliser, étapes, références)
+├── scripts/                  # Scripts exécutables
+│   ├── list-skills.sh        #   Recherche par mot-clé
+│   └── build-index.py        #   Générateur d'index
+├── config/                   # Fichiers de configuration
+│   └── skills-index.json     #   Index JSON des 423 compétences
+└── tests/                    # Validation et tests
 ```
 
-## Catégories de Compétences
+## Catégories de compétences
 
-| Catégorie | Compétences | Description |
-|------|--------|------|
-| 🚑 Cardiovasculaire | 116 | Insuffisance cardiaque, angine, HTA, arythmie, valvulopathie |
-| 🫁 Respiratoire | 70 | Pneumonie, tuberculose, asthme, BPCO, embolie pulmonaire, pathologie pleurale |
-| 🫃 Digestif | 73 | Gastrite, ulcère, hépatopathie, pancréatite, ascite, diarrhée |
-| 🧬 Endocrinologie & Métabolisme | 46 | Diabète, thyroïde, hypophyse, surrénales, goutte |
-| 🫘 Rénal | 29 | Néphrite, insuffisance rénale, dialyse, protéinurie, troubles électrolytiques |
-| 🩸 Hématologie | 37 | Leucémie, anémie, troubles de la coagulation, myélome, lymphome |
-| 🦿 Rhumatologie & Immunologie | 12 | PR, LED, syndrome de Sjögren, vascularite, spondyloarthrite |
-| 🦠 Infectiologie & Tuberculose | 4 | Usage des antibiotiques, hépatite virale, infections fongiques |
-| 💊 Intoxications & Urgences | 3 | Intoxication médicamenteuse, antagonisme opioïde, RCP, réanimation du choc |
-| 🎗️ Oncologie & Soins Complets | 1 | Cancer du poumon, cancer du pancréas, marqueurs tumoraux, thérapie ciblée |
-| 📚 Autres / Intégré | 32 | Gestion transversale, ressources pédagogiques, nomenclature |
+| Catégorie | Nombre | Description |
+|-----------|--------|-------------|
+| ❤️ Maladies cardiovasculaires | 56 | Coronaropathie, insuffisance cardiaque, arythmie, cardiomyopathie, HTA, valvulopathie |
+| 🫁 Maladies respiratoires | 45 | Pneumonie, BPCO, asthme, embolie pulmonaire, PID, pathologie pleurale |
+| 🫃 Maladies digestives | 50 | Gastrite, ulcère, MII, cirrhose, pancréatite, ascite |
+| 🧬 Maladies endocriniennes et métaboliques | 46 | Diabète, thyroïde, hypophyse-surrénales, goutte, troubles électrolytiques |
+| 🫘 Maladies rénales | 29 | Glomérulonéphrite, insuffisance rénale, dialyse, protéinurie, IRA |
+| 🩸 Maladies hématologiques | 37 | Leucémie, anémie, troubles de la coagulation, myélome, lymphome, SMD |
+| 🦿 Maladies rhumatologiques et immunologiques | 12 | PR, LED, Sjögren, sclérose systémique, vascularite |
+| 🦠 Maladies infectieuses et tuberculose | 20 | Infections communautaires, nosocomiales, tuberculose, infections fongiques, hépatites virales |
+| 💊 Intoxications et lésions physico-chimiques | 15 | Intoxications médicamenteuses, solvants organiques, CO, coup de chaleur, noyade |
+| 🎗️ Oncologie et soins complets | 18 | Cancer du poumon, gastrique, colorectal, pancréatique, marqueurs tumoraux, thérapie ciblée |
+| 📋 Gestion des maladies chroniques | 20 | Prise en charge HTA, suivi diabète, dyslipidémie |
+| 🔬 Compétences et procédures cliniques | 25 | Ponction pleurale, paracentèse, ponction médullaire, RCP, défibrillation |
+| 💉 Pharmacothérapie et sécurité | 20 | Gestion anticoagulants, bon usage antibiotiques, corticothérapie standardisée |
+| 📡 Interprétation des examens | 15 | ECG, échocardiographie, gaz du sang, interprétation bilans |
+| 📚 Ressources pédagogiques et qualité | 15 | Structure du manuel, programme, points d'examen, raisonnement clinique |
 
-## Démarrage Rapide
+## Guide de démarrage rapide
 
 ### Installation
 
@@ -82,49 +96,96 @@ Prompt :
 ```bash
 Before installing anything, inspect the ClawHub skill metadata and setup requirements.
 If the skill asks you to install a third-party package or CLI, verify its source, maintainer, and package contents before running the install command.
-Install the skill "Internal-Medicine-PMPH-10edition" from ClawHub only after those checks pass.
-Skill page: https://clawhub.ai/
+Install the skill "Internal-Medicine-PMPH-10edition" (xllgreen/internal-medicine-pmph-10edition) from ClawHub only after those checks pass.
+Skill page: https://clawhub.ai/xllgreen/internal-medicine-pmph-10edition
 Keep the work scoped to this skill only.
 After install, help me finish setup from verified skill metadata.
 Use only the metadata you can verify from ClawHub; do not invent missing requirements.
 Ask before making any broader environment changes.
 ```
 
-### Recherche de Compétences
+### Recherche de compétences
 
 ```bash
 # Recherche par mot-clé
-bash scripts/list-skills.sh search 心衰
+bash scripts/list-skills.sh search insuffisance cardiaque
 
 # Lister toutes les compétences
 bash scripts/list-skills.sh list
-
-# Compter le nombre total de compétences
-bash scripts/list-skills.sh count
 ```
 
 ### Utilisation
 
-Chaque compétence comprend quatre parties :
-1. **Indications** — Quand déclencher cette compétence (trigger/description dans le frontmatter YAML)
-2. **Étapes** — Procédure clinique standardisée
+Chaque compétence contient quatre parties :
+1. **Quand utiliser** — Déclencheur de la compétence
+2. **Étapes d'exécution** — Workflow clinique standardisé
 3. **Précautions** — Contre-indications et avertissements
-4. **Références** — Extraits du manuel ou documents complémentaires
+4. **Références** — Ressources complémentaires
 
-## À propos de l'Auteur
+### Stratégies de questionnement
 
-**Ensemble de compétences en Médecine Interne (10e édition)** — Compilé d'après la 10e édition de *Médecine Interne* des Éditions de la Santé Populaire
+#### 1.**Concept**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+
+#### 2.**Analyse de cas clinique**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+#### 3.**Question d'examen**
+Question:
+```bash
+
+```
+Answer：
+```bash
+
+```
+
+## À propos de l'auteur
+
+**xllgreen (https://xllgreen.github.io)** — Étudiant en médecine au Jiujiang University Clinical Medical College · Geek tech
+
+## Support technique
+<br>
+Projet PDF2App : https://pdf2app.cn
+<br>
+Microsoft Visual Studio Code : https://code.visualstudio.com/
+<br>
+Claude Code for VS Code : https://claude.com/
+© 2026 Anthropic PBC
+<br>
+<br>
+<img src="https://cdn.deepseek.com/logo.png?x-image-process=image%2Fresize%2Cw_1920" width="130px">
+<br>DeepSeek API : https://platform.deepseek.com/
+<br>
+<br>
+<img src="https://cdn.cnbj1.fds.api.mi-img.com/aife/mimo-blog-fe/doc_build/static/image/logo.99baaffe.png" width="130px">
+<br>Xiaomi Mimo API : https://platform.xiaomimimo.com/
+Copyright © 2010 - 2026 Xiaomi. All Rights Reserved
+<br>
 
 ## Licence
 
-Le contenu de ce projet est compilé d'après la 10e édition de *Médecine Interne* des Éditions de la Santé Populaire, à des fins d'apprentissage et de référence uniquement.
+Ce projet est basé sur la *Médecine Interne* (10e édition) de la People's Medical Publishing House, fourni à titre de référence pédagogique uniquement.
 
 ## Star History
 
-<a href="https://www.star-history.com/#">
+<a href="https://www.star-history.com/?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Internal-Medicine-PMPH-10edition&type=date&legend=top-left" />
  </picture>
 </a>
