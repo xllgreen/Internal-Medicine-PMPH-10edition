@@ -105,7 +105,10 @@ Ask before making any broader environment changes.
 ```
 
 ### 安装后使用
-每次回答前都先去查一遍对应医学skill 来确认
+需要对agent交代以下内容：
+```bash
+每次回答前请先去查一遍对应的医学skill来确认
+```
 
 ### 查找技能
 
