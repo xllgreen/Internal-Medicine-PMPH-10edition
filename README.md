@@ -104,6 +104,9 @@ Use only the metadata you can verify from ClawHub; do not invent missing require
 Ask before making any broader environment changes.
 ```
 
+### 安装后使用
+每次回答前都先去查一遍对应医学skill 来确认
+
 ### 查找技能
 
 ```bash
