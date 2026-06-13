@@ -8,7 +8,7 @@
 [![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)
 
 <br>
-> 基于人民卫生出版社《内科学》第10版的临床技能手册 — 423 项内科核心临床技能
+> 基于人民卫生出版社《内科学》第10版的临床技能手册 — 432 项内科核心临床技能
 <br>
 <br>
 <img src="assets/Internal-Medicine.jpg" width="260px">
@@ -29,7 +29,7 @@
 
 ## 项目简介
 
-本项目系统整合内科学领域核心知识，涵盖心血管疾病、呼吸系统疾病、消化系统疾病、内分泌与代谢疾病、肾脏疾病、血液系统疾病、风湿免疫疾病、感染性疾病与结核、中毒与理化损伤、肿瘤与综合、慢病管理与分级诊疗、临床技能与操作、药物治疗与安全、检验与影像解读及教学资源与质量控质等 **15 大分类**，共 **423 项关键临床技能**。
+本项目系统整合内科学领域核心知识，涵盖心血管疾病、呼吸系统疾病、消化系统疾病、内分泌与代谢疾病、肾脏疾病、血液系统疾病、风湿免疫疾病、感染性疾病与结核、中毒与理化损伤、肿瘤与综合、慢病管理与分级诊疗、临床技能与操作、药物治疗与安全、检验与影像解读及教学资源与质量控制等 **15 大分类**，共 **432 项关键临床技能**。
 
 **适用人群**：内科医师、全科医生、急诊科医生、医学生、住院医师规范化培训学员
 
@@ -51,16 +51,12 @@
 
 ```
 Internal-Medicine-PMPH-10edition/
-├── SKILL.md                  # 核心配置 — 423 项技能注册表
+├── SKILL.md                  # 核心配置 — 432 项技能注册表
 ├── README.md                 # 本文档 — 项目说明与使用指南
 ├── <skill-name>/             # 各项技能的详细定义
 │   └── SKILL.md              #   技能详情（使用时机、执行步骤、参考文档）
-├── scripts/                  # 可执行工具脚本
-│   ├── list-skills.sh        #   技能关键词搜索
-│   └── build-index.py        #   技能索引生成器
 ├── config/                   # 配置文件
-│   └── skills-index.json     #   全部 423 项技能的 JSON 索引
-└── tests/                    # 验证与测试
+│   └── skills-index.json     #   全部 432 项技能的 JSON 索引
 ```
 
 ## 技能分类一览
@@ -113,11 +109,11 @@ Ask before making any broader environment changes.
 ### 查找技能
 
 ```bash
-# 按关键词搜索
-bash scripts/list-skills.sh search 心衰
+# 按关键词搜索（在 config/skills-index.json 中检索）
+grep -i "心衰" config/skills-index.json
 
-# 生成技能清单
-bash scripts/list-skills.sh list
+# 获取技能总数
+cat config/skills-index.json | python -c "import json,sys; d=json.load(sys.stdin); print(f'共 {len(d)} 项技能')"
 ```
 
 ### 使用方式
