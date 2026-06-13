@@ -1,6 +1,7 @@
 ---
 name: Hematopoietic Stem Cell Collection and Preservation
 description: 执行骨髓、外周血或脐带血来源的造血干细胞采集与保存操作，确保获得符合数量与质量标准的干细胞产品用于造血干细胞移植（HSCT）。当临床需要为供者、自体患者或新生儿采集造血干细胞时使用本技能。
+tags: ["Hematopoietic Stem Cell Collection and Preservation", "血液"]
 ---
 
 # 造血干细胞采集与保存标准流程

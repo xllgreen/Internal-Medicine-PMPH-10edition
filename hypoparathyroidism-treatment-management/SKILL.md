@@ -1,6 +1,7 @@
 ---
 name: Hypoparathyroidism Treatment Management
 description: 制定甲状旁腺功能减退症（甲旁减）患者的个体化治疗方案，包括急性低钙血症的紧急处理、长期钙剂与维生素D联合用药、尿钙监测及并发症预防。当患者确诊为甲旁减或假性甲旁减，并已完成血钙、尿钙和肾功能评估时使用本技能。
+tags: ["Hypoparathyroidism Treatment Management", "内分泌与代谢", "治疗", "管理"]
 ---
 
 # 甲状旁腺功能减退症治疗管理

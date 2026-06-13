@@ -1,6 +1,7 @@
 ---
 name: Hormone Replacement Therapy for Endocrine Hypofunction
 description: 制定因内分泌腺体破坏、发育异常或激素合成缺陷导致的功能减退患者的个体化激素替代治疗方案。当患者确诊为1型糖尿病、甲状腺功能减退症或肾上腺皮质功能减退，且明确缺乏特定激素时使用本技能。
+tags: ["Hormone Replacement Therapy for Endocrine Hypofunction", "内分泌与代谢", "治疗", "甲状腺", "糖尿病", "肾上腺"]
 ---
 
 # 内分泌腺功能减退的激素替代治疗原则

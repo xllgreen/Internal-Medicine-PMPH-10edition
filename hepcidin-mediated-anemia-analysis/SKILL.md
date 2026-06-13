@@ -1,6 +1,7 @@
 ---
 name: Hepcidin-Mediated Anemia Analysis
 description: 分析慢性炎症、感染或肿瘤背景下铁调素（hepcidin）介导的功能性铁缺乏性贫血机制。当患者表现为血清铁降低、转铁蛋白饱和度下降但铁蛋白正常或升高，且存在基础炎症或慢性病时使用本技能，以解释为何单纯补铁无效并指导治疗方向。
+tags: ["Hepcidin-Mediated Anemia Analysis", "血液", "贫血"]
 ---
 
 # 铁调素介导的贫血机制分析

@@ -1,6 +1,7 @@
 ---
 name: Hormone Interaction Pattern Analysis
 description: 识别并分类多种代谢调节激素在共同生理过程中的相互作用模式（整合作用、协同作用或拮抗作用）。当分析涉及胰岛素、胰高血糖素、糖皮质激素、肾上腺素、生长激素等两种及以上激素共同调节同一代谢通路（如血糖稳态）时使用本技能。
+tags: ["Hormone Interaction Pattern Analysis", "内分泌与代谢", "肾上腺"]
 ---
 
 # 激素相互作用模式分析

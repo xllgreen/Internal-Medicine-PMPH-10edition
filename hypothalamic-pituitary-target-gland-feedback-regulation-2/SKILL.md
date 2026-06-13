@@ -1,6 +1,7 @@
 ---
 name: hypothalamic-pituitary-target-gland-feedback-regulation-2
 description: 分析和解释下丘脑-垂体-靶腺轴（包括甲状腺、肾上腺皮质和性腺）中的负反馈与正反馈调节机制。当用户需要理解激素水平异常如何触发反馈调节、维持内分泌稳态，或解释LH峰等特殊生理现象时使用本技能。
+tags: ["hypothalamic-pituitary-target-gland-feedback-regulation-2", "内分泌与代谢", "垂体", "甲状腺", "肾上腺"]
 ---
 
 # 下丘脑-垂体-靶腺轴反馈调节机制

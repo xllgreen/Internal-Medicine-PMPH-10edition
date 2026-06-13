@@ -1,6 +1,7 @@
 ---
 name: hsct-classification-system
 description: 根据供者来源、干细胞采集部位、血缘关系和HLA配型结果，对造血干细胞移植（HSCT）进行系统分类。当临床医生或移植方案制定者需要为患者制定HSCT方案并明确移植类型时使用此技能。
+tags: ["hsct-classification-system", "分类", "检验与影像"]
 ---
 
 # 造血干细胞移植分类体系
