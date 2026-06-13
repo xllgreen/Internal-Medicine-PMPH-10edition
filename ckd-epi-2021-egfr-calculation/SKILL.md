@@ -1,6 +1,7 @@
 ---
 name: CKD-EPI 2021 eGFR 计算（无种族变量）
 description: 使用2021年更新的CKD-EPI公式估算成人肾小球滤过率（eGFR），适用于慢性肾脏病评估和肾功能分期，且需避免种族校正偏倚。当临床需要基于血清肌酐（Scr）或联合血清Cystatin C（Scys）精确估算成人eGFR时使用本技能。
+tags: ["CKD", "CKD-EPI 2021 eGFR 计算（无种族变量）", "肾脏"]
 ---
 
 # CKD-EPI 2021 eGFR 计算（无种族变量）

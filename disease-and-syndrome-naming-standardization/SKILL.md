@@ -1,6 +1,7 @@
 ---
 name: Disease and Syndrome Naming Standardization
 description: 提供符合国际标准的疾病与综合征中英文对照命名规范。当用户需要将中文疾病名称转换为标准英文名称，或验证现有中英对照是否符合医学命名惯例时使用此技能。
+tags: ["Disease and Syndrome Naming Standardization", "综合"]
 ---
 
 # 疾病与综合征命名标准化

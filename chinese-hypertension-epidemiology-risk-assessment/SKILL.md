@@ -1,6 +1,7 @@
 ---
 name: Chinese Hypertension Epidemiology Risk Assessment
 description: 评估中国高血压患者的心血管并发症风险时，优先考虑脑卒中而非心肌梗死，并据此调整防治策略。当用户需要基于中国人群特征进行高血压相关风险评估、制定公共卫生政策或个体化干预方案时使用本技能。
+tags: ["Chinese Hypertension Epidemiology Risk Assessment", "心肌梗死", "心血管", "评估", "高血压"]
 ---
 
 # 中国高血压流行病学特征与风险评估
