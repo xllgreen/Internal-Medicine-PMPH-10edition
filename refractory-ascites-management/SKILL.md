@@ -1,6 +1,7 @@
 ---
 name: refractory-ascites-management
 description: 针对肝硬化患者在规范限钠、限水及大剂量利尿剂治疗无效后出现的顽固性腹腔积液，提供诊断确认与后续处理策略。当肝硬化患者经标准治疗4-5天后腹腔积液无明显减少，或穿刺放液后48小时内快速再发时，使用本技能。
+tags: ["refractory-ascites-management", "消化", "管理", "肝硬化"]
 ---
 
 # 顽固性腹腔积液的定义与处理策略

@@ -1,6 +1,7 @@
 ---
 name: Reducing Proteinuria with ACEI/ARB and SGLT2 Inhibitors
 description: 制定以ACEI或ARB为基础、必要时联合SGLT2抑制剂的药物干预方案，用于治疗持续性蛋白尿（尤其≥0.5g/d）且无禁忌证的肾小球疾病患者。当患者存在持续性蛋白尿（特别是≥1.0g/d）、已确诊为肾小球源性蛋白尿、且无ACEI/ARB禁忌证时，应启动本技能。
+tags: ["Reducing Proteinuria with ACEI/ARB and SGLT2 Inhibitors", "肾脏", "蛋白尿"]
 ---
 
 # 减少尿蛋白的药物干预策略

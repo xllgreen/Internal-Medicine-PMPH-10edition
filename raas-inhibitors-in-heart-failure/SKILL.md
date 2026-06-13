@@ -1,6 +1,7 @@
 ---
 name: RAAS抑制剂在心力衰竭中的应用
 description: 当HFrEF、HFmrEF或HFpEF患者血流动力学稳定且无禁忌证时，使用本技能根据心衰类型选择ACEI、ARB或ARNI，并逐步滴定至目标剂量。
+tags: ["RAAS抑制剂在心力衰竭中的应用", "心力衰竭", "心血管"]
 ---
 
 # RAAS抑制剂在心力衰竭中的应用

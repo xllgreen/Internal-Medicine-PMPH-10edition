@@ -1,6 +1,7 @@
 ---
 name: rheumatoid-arthritis-pathogenesis-analysis
 description: 分析类风湿关节炎（RA）的核心病理机制，包括关节内滑膜病变、血管翳形成及关节外血管炎表现。当患者出现关节畸形、关节外器官损害或类风湿结节时，使用本技能解释其病理基础并评估疾病活动度与预后。
+tags: ["rheumatoid-arthritis-pathogenesis-analysis", "类风湿", "血管炎", "风湿免疫"]
 ---
 
 # 类风湿关节炎病理机制分析
