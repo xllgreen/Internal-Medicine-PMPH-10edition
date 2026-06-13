@@ -1,6 +1,7 @@
 ---
 name: medical-terminology-mapping-for-diagnostic-procedures
 description: 将中文诊疗技术、检查方法或实验室检测名称准确转换为标准英文全称及国际通用缩写。当用户需要在病历书写、科研论文或医疗设备操作中使用规范英文术语时应用此技能。
+tags: ["medical-terminology-mapping-for-diagnostic-procedures", "综合", "诊断"]
 ---
 
 # 医疗诊疗技术术语标准化映射

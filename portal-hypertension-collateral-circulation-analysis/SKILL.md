@@ -1,6 +1,7 @@
 ---
 name: Portal Hypertension Collateral Circulation Analysis
 description: 分析失代偿期肝硬化患者门静脉高压引发的侧支循环形成机制及其临床后果，用于预警食管胃底静脉曲张出血、肝性脑病等高危并发症。当患者出现脾大、腹水或食管胃底静脉曲张（EGV）时触发本技能。
+tags: ["Portal Hypertension Collateral Circulation Analysis", "心血管", "肝性脑病", "肝硬化", "腹水"]
 ---
 
 # 门静脉高压侧支循环分析

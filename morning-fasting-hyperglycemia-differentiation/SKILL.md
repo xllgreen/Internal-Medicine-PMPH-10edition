@@ -1,6 +1,7 @@
 ---
 name: Morning Fasting Hyperglycemia Differentiation
 description: 针对接受胰岛素治疗的糖尿病患者（尤其是T1DM和T2DM使用基础+餐时方案者）出现早晨空腹血糖持续升高时，通过夜间多次血糖监测鉴别其原因（剂量不足、黎明现象或索莫吉现象），并据此调整胰岛素方案。当用户描述“胰岛素治疗后早晨空腹血糖仍高”且具备夜间血糖数据时触发本技能。
+tags: ["Morning Fasting Hyperglycemia Differentiation", "糖尿病", "综合"]
 ---
 
 # 早晨空腹高血糖的鉴别诊断与处理
