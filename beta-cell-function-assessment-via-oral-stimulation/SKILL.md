@@ -1,6 +1,7 @@
 ---
 name: Beta Cell Function Assessment via Oral Stimulation
 description: 评估疑似糖尿病患者或需判断内源性胰岛素分泌能力者的β细胞功能，通过口服葡萄糖后的胰岛素或C肽释放试验。当患者未使用外源性胰岛素时选用胰岛素释放试验；当患者正在使用外源性胰岛素、存在胰岛素抗体或需排除干扰时，应选用C肽释放试验。
+tags: ["Beta Cell Function Assessment via Oral Stimulation", "检验与影像", "糖尿病", "评估"]
 ---
 
 # 口服刺激下β细胞功能评估

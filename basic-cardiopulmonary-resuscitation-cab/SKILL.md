@@ -1,6 +1,7 @@
 ---
 name: Basic Cardiopulmonary Resuscitation (CAB)
 description: 执行标准化初级心肺复苏（CAB）流程，适用于无反应、无正常呼吸或仅有喘息且无脉搏的成人心脏骤停患者、儿童心脏骤停患者及婴儿心脏骤停患者。当确认患者符合上述条件并在硬质平面上仰卧时立即使用本技能。
+tags: ["Basic Cardiopulmonary Resuscitation (CAB)", "心肺复苏", "心血管"]
 ---
 
 # 初级心肺复苏（CAB）操作规范

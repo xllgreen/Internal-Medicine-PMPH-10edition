@@ -1,6 +1,7 @@
 ---
 name: Beta Cell Function Assessment via Special Stimuli
 description: 在疑难糖尿病分型或需全面评估β细胞储备功能时，使用静脉葡萄糖、胰高血糖素或精氨酸等非口服刺激物进行β细胞功能测试。适用于疑似1型糖尿病、混合型糖尿病鉴别或科研场景，必须在专业医疗监护下执行。
+tags: ["Beta Cell Function Assessment via Special Stimuli", "检验与影像", "糖尿病", "评估"]
 ---
 
 # 特殊刺激下β细胞功能评估

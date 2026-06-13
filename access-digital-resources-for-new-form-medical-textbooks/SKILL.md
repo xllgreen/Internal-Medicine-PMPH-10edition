@@ -1,6 +1,7 @@
 ---
 name: Access Digital Resources for New-Form Medical Textbooks
 description: 获取全国高等学校五年制本科临床医学专业第十轮规划教材配套数字资源和电子教材的完整流程。当用户持有配备二维码的新形态人卫版纸质教材，并希望激活并访问其关联的数字内容（如课件、视频、AR互动、电子教材等）时使用本技能。
+tags: ["Access Digital Resources for New-Form Medical Textbooks", "综合"]
 ---
 
 # Access Digital Resources for New-Form Medical Textbooks

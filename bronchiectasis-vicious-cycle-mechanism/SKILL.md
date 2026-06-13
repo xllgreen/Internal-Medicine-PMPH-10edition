@@ -1,6 +1,7 @@
 ---
 name: bronchiectasis-vicious-cycle-mechanism
 description: 阐述支气管扩张症中“感染→炎症→结构破坏→引流障碍→再感染”的恶性循环发病机制，并据此制定多靶点干预策略。当患者出现慢性咳嗽咳痰、反复呼吸道感染或影像学提示支气管异常扩张时，应使用本技能理解疾病进展并指导治疗。
+tags: ["bronchiectasis-vicious-cycle-mechanism", "呼吸"]
 ---
 
 # 支气管扩张症恶性循环机制与干预策略
