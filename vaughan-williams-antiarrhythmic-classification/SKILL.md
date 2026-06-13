@@ -1,6 +1,7 @@
 ---
 name: Vaughan Williams 抗心律失常药物分类
 description: 根据 Vaughan Williams 经典四类及拓展八类分类法，对抗心律失常药物进行机制归类，并指导临床用药选择。当需要理解药物电生理作用机制、对药物进行分类或制定基于机制的治疗方案时使用本技能。
+tags: ["Vaughan Williams 抗心律失常药物分类", "分类", "心律失常", "心血管"]
 ---
 
 # Vaughan Williams 抗心律失常药物分类
